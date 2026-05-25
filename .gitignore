@@ -1,0 +1,81 @@
+# ===== Intel Quartus =====
+db/
+incremental_db/
+output_files/
+greybox_tmp/
+simulation/
+qdb/
+*.qpf
+*.qsf
+*.qws
+*.qarlog
+*.rpt
+*.summary
+*.smsg
+*.pin
+*.sof
+*.pof
+*.jdi
+*.sld
+*.done
+*.txt.bak
+c5_pin_model_dump.txt
+
+# ===== ModelSim =====
+*.wlf
+transcript
+work/
+modelsim.ini
+vsim.wlf
+*.mpf
+*.mti
+*.cr.mti
+wlft*
+
+# ===== Vivado / ISE =====
+*.jou
+*.log
+*.str
+*.xpr
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.gen/
+.Xil/
+
+# ===== Icarus Verilog / GTKWave =====
+*.vvp
+*.vcd
+*.fst
+*.lxt
+*.lxt2
+*.ghw
+
+# ===== Backup / temp files =====
+*.bak
+*.bak2
+*.tmp
+*.orig
+*~
+*.swp
+*.swo
+
+# ===== Editor / IDE =====
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ===== Windows =====
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ===== macOS =====
+.DS_Store
+.AppleDouble
+.LSOverride
